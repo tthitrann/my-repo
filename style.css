@@ -3,6 +3,28 @@
     padding: 10px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #68a8f7;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
+}
+
+a {
+    color: #e691cc;
+}
+
 body {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
