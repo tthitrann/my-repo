@@ -1,97 +1,81 @@
-* {
-    margin: 0;
-    padding: 10px;
+*{
+    padding:10px;
+    margin:0;
 }
 
-html {
-    scroll-behavior: smooth;
+section{  
+  margin: 20px 0;
 }
 
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #68a8f7;
-    color: white;
-    display: flex;
-    justify-content: center;
+ul{    
+  padding-left: 40px;
 }
 
-.nav a {
-    color: white;
+ul ul ul {
+  margin-top: 10px;
 }
 
-a {
-    color: #e691cc;
-}
-
-body {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #fff7e0;
-}
-
+/* 1. Headings */
 h1 {
-    border-style: outset;
-    border-width: 5px;
-    border-color: #e691cc;
-    border-radius: 25px;
-    background-color: white;
-    color: #e691cc;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
+  text-transform: capitalize; 
 }
 
-h2 {
-    color: #68a8f7;
-    text-decoration: underline;
+/* 2. Force 'CSS' to stay uppercase */
+span {
+  text-transform: uppercase;
 }
 
-img {
-    width: 500px;
-    height: auto;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: #e691cc;
-    background-color: white;
-    padding: 5px;
-    margin: 10px;
+/* 3. Paragraph styling */
+p {
+  color: black;
+  background-color: white;
 }
 
-ul {    
-    padding-left: 40px;
-    list-style-type: "♡ ";
+/* 4. Section borders */
+section {
+  border-style: dashed;
+  border-width: 2;
+  border-color: black;
 }
 
-li {
-    margin-bottom: 0px;
-    line-height: 0.5;
+/* Main list item colors */
+li:nth-child(1) {
+  color: royalblue;
 }
 
-article {
-    border-style: outset;
-    border-width: 5px;
-    border-color: #e691cc;
-    border-radius: 25px;
-    background-color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0px 5px 10px 2px #45433d;
+li:nth-child(2) {
+  color: forestgreen;
 }
 
-aside {
-    text-align: center;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #e691cc;
-    border-radius: 25px;
-    background-color: white;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0px 5px 10px 2px #45433d;
+li:nth-child(3) {
+  color: crimson;
 }
+
+/* Sub-list */
+ul ul li:nth-child(1){
+  color: #9400d3;
+  background-color: #f0f0f0;
+  border-radius: 25%;
+}
+
+/* Inner sub-list */
+ul ul ul li:nth-child(1){
+  color: #ff8c00;
+  background-color: #fdf6e3;
+  border-radius: 25%;
+  font-size: smaller;
+}
+
+/* Second violet item in sub-list */
+ul ul li:nth-child(3){
+  color: #9400d3;
+  background-color: #f0f0f0;
+  border-radius: 25%;
+}
+
+/* Final main list item */
+li:nth-child(5){
+  color: royalblue
+}
+
+/* Footer */
