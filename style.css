@@ -1,1 +1,75 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
 
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff7e0;
+}
+
+h1 {
+    border-style: outset;
+    border-width: 5px;
+    border-color: #e691cc;
+    border-radius: 25px;
+    background-color: white;
+    color: #e691cc;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: #68a8f7;
+    text-decoration: underline;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #e691cc;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul {    
+    padding-left: 40px;
+    list-style-type: "♡ ";
+}
+
+li {
+    margin-bottom: 0px;
+    line-height: 0.5;
+}
+
+article {
+    border-style: outset;
+    border-width: 5px;
+    border-color: #e691cc;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 10px 2px #45433d;
+}
+
+aside {
+    text-align: center;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #e691cc;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 10px 2px #45433d;
+}
